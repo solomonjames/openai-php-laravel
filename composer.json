@@ -9,11 +9,17 @@
             "email": "enunomaduro@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/jplhomer/openai-php-client"
+        }
+    ],
     "require": {
         "php": "^8.1.0",
         "guzzlehttp/guzzle": "^7.8.1",
         "laravel/framework": "^9.46.0|^10.34.2|^11.0",
-        "openai-php/client": "^v0.8.0"
+        "openai-php/client": "dev-support-transcription-granularity"
     },
     "require-dev": {
         "laravel/pint": "^1.13.6",
